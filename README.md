@@ -1,3 +1,3 @@
 # VAR-p-in-C-plus-plus-with-armadillo
-C++ vector autoregression implementation with time lag variables for time series prediction using the armadillo package (see https://arma.sourceforge.net/docs.html).
+An efficient C++ vector autoregression (VAR(p)) implementation with time lag variables for time series prediction using the armadillo package (see https://arma.sourceforge.net/docs.html). The example datasets ending with 'L' include input features (meantemp, humidity, wind_speed	and meanpressure) and the date column, while those without do not include these. The predictions can be made for each of these variables at some time t while selecting the past lags of this variable and those of other variables as input. We calculate the rmse measures based on the test dataset and note accuracy differences, noting that it is easier to predict the mean temperature variable.   
  
